@@ -171,10 +171,10 @@ img.profile {
 }
 #tab-group li.active {
   /* border: solid 1px red; */
-  height: 40px;
   background-color: #2F2F2F;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+  margin: 0;
 }
 #tab-group li a{
   /* border: solid .3px red; */
@@ -336,6 +336,8 @@ img.profile {
     font-size: 10px;
   }
   #tab-group li {
+    margin: 0;
+
     font-size: 10px;
     width: 18%;
   
