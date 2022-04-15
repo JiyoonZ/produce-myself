@@ -170,6 +170,7 @@ img.profile {
   display:block !important;
 }
 #tab-group li.active {
+  height: 100%;
   background-color: #2F2F2F;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
