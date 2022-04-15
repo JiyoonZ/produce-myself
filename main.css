@@ -381,10 +381,8 @@ img.profile {
   }
   .wrapper .p {
     font-size: 10px;
-    color: #B5B5B6;
-    width: 60%;
-    margin: auto;
-    line-height: 25px;
+    width: 90%;
+    line-height: 18px;
   }
   .wrapper .line {
     width: 25%;
