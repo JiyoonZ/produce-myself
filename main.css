@@ -335,6 +335,9 @@ img.profile {
   *{
     font-size: 10px;
   }
+  #header #circle {
+    margin-bottom: 2%;
+  }
   #tab-group li {
     margin: 0;
 
