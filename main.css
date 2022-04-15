@@ -252,7 +252,7 @@ img.profile {
   border-bottom: solid 1px #B5B5B6;
 }
 /* ELICE */
-@media all and (max-width:1200px) {
+@media (min-width:580px) and (max-width:1200px) {
   #me1 {
     width: 150px;
     position: absolute;
@@ -329,9 +329,6 @@ img.profile {
   }
   .container .nameTag p {
     margin: 5%;
-  }
-  *{
-    font-size: 10px;
   }
   #tab-group li {
     height: 100%;
