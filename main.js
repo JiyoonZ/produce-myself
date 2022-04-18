@@ -1,3 +1,4 @@
+// 탭창 구현하기
 let links = document.querySelectorAll('#tab-group li a'); //위에탭부분
 let items = document.querySelectorAll('#tab-group li');
 
@@ -23,3 +24,23 @@ for(let i=0; i<items.length; i++) {
         
   }  
 }
+// Theme mode 활성화
+let themebtn = document.getElementById('themebtn');
+let themes = document.getElementsByClassName('theme-group')[0];
+let state = 'on';
+themebtn.addEventListener("click", function() {
+  if(state === 'off') {
+    themebtn.classList.remove('noactive');
+    themes.classList.add('noshow')
+    state = 'on';
+  } else {
+    themebtn.classList.add('noactive');
+    themes.classList.remove('noshow')
+    state = 'off';
+  }
+});
+
+//dark vs light 버전 선택하기
+
+
+
