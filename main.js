@@ -41,6 +41,25 @@ themebtn.addEventListener("click", function() {
 });
 
 //dark vs light 버전 선택하기
+let ischeck = document.getElementsByClassName('checkbox')[0];
 
+ischeck.addEventListener("click", function(e) {
+  // e.preventDefault();
+  if(ischeck.checked === true) {
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('.nameTag').style.border = 'solid 1px black';
+    document.querySelector('.introduce').style.backgroundColor = "rgba(1,1,1, 0.4)";
+    document.querySelectorAll('p').forEach(v => v.style.color = "white");
+    
+    document.querySelector('.nameTag p').style.color = 'black';
+    document.querySelectorAll('.footbox p').forEach(v => v.style.color = 'black');
+    console.log('하하')
+    
+  } else {
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('.nameTag').style.border = 'solid 1px white';
+    document.querySelector('.introduce').style.backgroundColor = "rgba(255,255,255,0.2)";
+    document.querySelectorAll('p').forEach(v => v.style.color = "#B5B5B6");
+  }
 
-
+})
